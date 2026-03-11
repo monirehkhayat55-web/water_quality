@@ -11,3 +11,6 @@ This folder includes:
 - ARCH-LM test statistics
 - Residual diagnostic plots
 - Supporting outputs used for volatility analysis
+- ![arch effect](arch effect.png)
+- ![arch eefect2](arch effect2.png)
+- 
