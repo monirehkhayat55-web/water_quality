@@ -1,4 +1,4 @@
-# Correlogram Analysis (ACF & PACF)
+# Correlogram Analysis (ACF-PACF)
 
 This folder contains correlogram outputs generated in EViews.
 
@@ -9,3 +9,5 @@ The correlogram includes:
 - Ljung-Box Q-statistics
 
 These plots are used to identify the structure of ARMA and ARIMA models for the phosphate time series.
+## Correlogram of TP(ACF-PACF)
+![Correlogram of TP](ACF-PACF.png)
