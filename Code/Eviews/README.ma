@@ -5,6 +5,8 @@ Sensor data recorded every 15 minutes
 Variables: turbidity, specific conductance, temperature
 Training period: Jan 1 – Mar 10 (40 days)
 2. Trend and Intercept Analysis
+*📌path: Equation Specification/TP C @TREND -Quick -Estimation-Method/LS
+
 A simple linear regression model was estimated to evaluate the baseline behavior of the phosphate series. Result:
 
 Initial level ≈ 0.198 mg/L
@@ -16,13 +18,14 @@ The Augmented Dickey-Fuller (ADF) test was used to evaluate stationarity. Result
 p-value = 0.17
 Null hypothesis (unit root) not rejected
 Series is non-stationary
+📌Dickey fuller test: path: View-Unit Root Test/Trend and intercept/t-statistic
 4. Differencing
 First-order differencing was applied to achieve stationarity. Result:
 
 ADF statistic = −9.48
 p-value ≈ 0
 Stationarity achieved after one differencing step.
-5. ACF / PACF Analysis
+📌5. ACF / PACF Analysis path:View/ Correlogram /Lag=60
 Autocorrelation and partial autocorrelation plots indicated:
 
 significant lag-1 and lag-2 effects
